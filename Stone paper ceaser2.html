@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stone paper ceaser</title>
+    <link rel="stylesheet" href="GAME.CSS">
+</head>
+
+<body>
+    <h1>STONE PAPAER CYZER GAME</h1>
+    <p> Choose your move : </p>
+    <button class="button" onclick="playGame('Stone')"> Stone 🪨</button>
+     
+    <button class="button" onclick="playGame('Paper')"> Paper📑</button>
+
+    <button class="button" onclick="playGame('Ceaser')"> Ceaser✂️</button>
+
+    <div id="displayBoard">
+    <div id="moves"> Start the game</div>
+    <div id="result-text"></div>
+    </div>
+    <div id="displayBoard">
+    <div id="totalScore">Score</div>
+    </div>
+    <button class="button" onclick="localStorage.clear()
+    "> Reset０</button>
+    <script src="GAME.JS"></script>
+</body>
+</html>
